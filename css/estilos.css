@@ -629,9 +629,11 @@ body {
 
     .subtitle{
         color: var(--color-title);
-        font-size: 100%;
+        font-size: 120%;
         margin-bottom: 25px;
         margin-top: 50px;
+        padding-left: 5%;
+        text-align: center;
     }
 
     .logo{
@@ -682,12 +684,28 @@ body {
     .testimony__arrow{
         width: 100%;
     }
-     
+    
+    .imagen__paragrahp{
+        line-height: 1.7;
+        margin-bottom: 15px;
+        text-align: justify;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    
+    .testimony__review{
+        font-size: 150%;
+        width: 200%;
+        text-align: justify;
+        margin-left: -15%;
+    }
+    
     .testimony__img{
         width: 200px;
         height: 200px;
         border-radius: 50%;
     }
+
 
     .testimony__course{
         margin-top:  15px;
@@ -700,6 +718,7 @@ body {
         font-size: 1rem;
 
     }
+    
 
     .nav--footer{
         padding: 0;
@@ -708,14 +727,24 @@ body {
 
     .footer__title{
         justify-self: start;
+        text-align: center;
     }
 
     .title__c{
-    padding-top: 10%;
-
-    .footer__form{
-        padding-top: 30%;
+    padding-top: 10%;    
+    
+    }
+    .footer__input{
+        background-color: #ffffff;
+        height: 50px;
+        display: block;
+        padding-left: 10px;
+        border-radius: 6px;
+        font-size: 1rem;
+        outline: none;
+        border: none;
+        margin-right: -15px;
     }
 
-    }
+
 }
