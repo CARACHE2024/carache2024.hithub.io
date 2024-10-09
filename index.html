@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/estilos.css">
 
+
     <meta name="theme-color" content="#2091F9">
 
     <!-- Primary Meta Tags -->
@@ -33,45 +34,47 @@
 <!-- Meta Tags Generated with https://metatags.io -->
 </head>
 <body>
-    <header class="hero">
+    <header class="menu__static">
+        <ul class="nav__link  nav__link--menu">
+            <li class="nav__items">
+                <a href="#" class="nav__links">Inicio</a>
+            </li>
+            <li class="nav__items">
+                <a href="#Quienes_somos" class="nav__links">Quienes Somos</a>
+            </li>
+            <li class="nav__items">
+                <a href="#retiros" class="nav__links">Retiros</a>
+            </li>
+            <li class="nav__items">
+                <a href="#" class="nav__links">Galeria</a>
+            </li>
+            <li class="nav__items">
+                <a href="#" class="nav__links">Contactanos</a>
+            </li>
+            <li class="nav__items">
+                <a href="ingreso.html" target="_blank" class="nav__links nav__secion">Iniciar Sesión</a>
+            </li>
+
+            <img src="./imges/close.svg" class="nav__close" class="nav__img"/>
+        </ul>
+    </header>
+    <div class="hero">
         <nav class="nav container">
            <div class="logo">
             <img src="./imges/emaus.png" alt="" class="logo__img">
            </div>
-            <ul class="nav__link  nav__link--menu">
-                <li class="nav__items">
-                    <a href="#" class="nav__links">Inicio</a>
-                </li>
-                <li class="nav__items">
-                    <a href="#" class="nav__links">Quienes Somos</a>
-                </li>
-                <li class="nav__items">
-                    <a href="#" class="nav__links">Retiros</a>
-                </li>
-                <li class="nav__items">
-                    <a href="#" class="nav__links">Galeria</a>
-                </li>
-                <li class="nav__items">
-                    <a href="#" class="nav__links">Contactanos</a>
-                </li>
-                <li class="nav__items">
-                    <a href="#" class="nav__links">Iniciar Sesión</a>
-                </li>
-
-                <img src="./imges/close.svg" class="nav__close" class="nav__img"/>
-            </ul>
-
+            
             <div class="nav__menu">
                 <img src="./imges/menu.svg" class="nav__img"/>
             </div>
         </nav>
             <section class="hero__container container">
-                <a href="#" class="cta">¡Ven y veras!</a>
+                <a href="#retiros" class="cta">¡Ven y veras!</a>
                 <h1 class="hero_title">Lucas 24: 13-35 "El Camino a Emaús"</h1>
             </section>
-    </header>
+        </div>
     <main>
-        <section class="conteiner about">
+        <section class="conteiner about" id="Quienes_somos">
             <h2 class="subtitle">La Hermandad de Hemaús</h2>
             <p class="about__paragraph">La hermandad de Emaús es una comunidad de hermanos, quienes, a través de una experiencia de encuentro personal con Jesús Resucitado, han decidido seguirle, ser Testigo de su resurrección, servirle en su Iglesia y ser testimonio de cambio y transformación del mundo.</p>
 
@@ -110,7 +113,7 @@
                 </div>
             </section>
         
-        <section class="retiro conteiner">
+        <section class="retiro conteiner" id="retiros">
             <h2 class="subtitle">Diferentes Retiros de la Parroquia Carache</h2>
 
             <div class="entrar__retiro">
@@ -264,8 +267,15 @@
 
             <nav class="title__interes">
                 <h3 class="title__c">Enlaces de Interes.</h3>
-                <a class="link__i" href="https://conferenciaepiscopalvenezolana.com/" target="_blank">Conferencia Episcopal Venezolana</a>
-                <a class="link__i" href="https://www.vatican.va/content/vatican/es.html" target="_blank">La Santa Sede</a>
+                <ul class="enlaces">
+                    <li class="enlace_1">
+                        <a class="link__i" href="https://conferenciaepiscopalvenezolana.com/" target="_blank">Conferencia Episcopal Venezolana</a>
+                    </li>
+                    <li class="enlace__1">
+                        <a class="link__i" href="https://www.vatican.va/content/vatican/es.html" target="_blank">La Santa Sede del Vaticano</a>
+                    </li>
+                </ul>
+                
             </nav>
 
             <form class="footer__form"  action="https://formspree.io/f/xkgnwvbn"
