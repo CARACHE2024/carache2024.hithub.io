@@ -14,6 +14,8 @@ body {
    
 }
 
+
+
 .container {
     width: 90%;
     max-width: 1200;
@@ -28,10 +30,11 @@ body {
     width: 220px;
 }
 
+
 .logo{
     position: relative;
-    bottom: 5%;
-    right: -11%;
+    bottom: 10%;
+    right: -18%;
 }
 
 .hero {
@@ -58,6 +61,15 @@ body {
     z-index: -1;
 }
 
+.parroquia{
+    display: grid;
+    position: relative;
+    left: -10%;
+    bottom: -30%;
+    font-size: 70%;
+
+}
+
 /* Nav*/
 
 .nav{
@@ -76,11 +88,13 @@ body {
 .nav__items{
     list-style: none;
     float: left;
+    position: relative;
+    
     
 }
 .nav__link{
     margin-left: auto;
-    padding: 0;
+    padding: 10px;
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: max-content;
@@ -89,9 +103,20 @@ body {
     position: relative;
     bottom: 10%;
     overflow: hidden;
-    right: -25%;
+    
 
 }
+
+.ubicacion{
+    font-size: 100%;
+    position: relative;
+    left: 10%;
+    top: 20%;
+    color: #696871;
+    
+    
+}
+
 
 .nav__links{
 
@@ -461,6 +486,7 @@ body {
 
 .footer__title{
     color: #000000;
+    text-align: center;
 } 
 
 .footer__newsletter{
@@ -487,7 +513,7 @@ body {
 .nav__link--footer{
     display: flex;
     margin: 0;
-    margin-left: -140px;
+    margin-left: -10px;
     flex-wrap: wrap;
     gap: 1rem;
 }
@@ -563,8 +589,20 @@ body {
 /* Media queries*/
 
 @media (max-width:800px){
+    
     .nav__menu{
         display: block;
+    }
+    .parroquia{
+        display: grid;
+        position: relative;
+        left: -18%;
+        bottom: -30%;
+        font-size: 48%;
+    }
+    .logo__img{
+        height: 50px;
+        width: 200px;
     }
 
     .nav__link--menu{
@@ -628,11 +666,21 @@ body {
         width: 100%;
         justify-items: center;
     }
+    
 }
 
 @media (max-width: 600px){
     .hero__title{
-        font-size: 2rem;
+        font-size: 5px;
+    }
+
+    .parroquia_text{
+        display: grid;
+        position: relative;
+        width: 400%;
+        left: -45%;
+        bottom: -30%;
+        font-size: 180%;
     }
 
     .hero::before{
@@ -772,5 +820,18 @@ body {
         margin-right: -15px;
     }
 
+/* boton de regreso*/
+    }
+#botonarriba{
+    position: fixed;
+    width: 4%;
+    bottom: 30px;
+    right: -100px;
+}
 
+#whatsapp{
+    position: fixed;
+    bottom: 600px;
+    right: 2%;
+    
 }
