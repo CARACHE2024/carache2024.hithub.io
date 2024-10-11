@@ -185,6 +185,7 @@ body {
     border-radius: 32px;
     position: relative;
     top: 5px;
+
     
 }
 
@@ -294,6 +295,11 @@ body {
     --color-items: #696871;
 
 }
+
+.element__color{
+    background: rgb(255, 72, 72);
+}
+
 
 .Semillitas{
     line-height: 2;
@@ -831,7 +837,8 @@ body {
 
 #whatsapp{
     position: fixed;
-    bottom: 600px;
+    bottom: 100px;
     right: 2%;
     
 }
+
